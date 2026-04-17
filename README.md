@@ -69,4 +69,4 @@ Actualmente, el proyecto se encuentra en su primera fase de entrega, cumpliendo 
 - Evolución de la App en React Native para permitir la **vinculación**: Escaneo de un producto real y asignación inmediata a una de las balizas simuladas.
 
 ---
-**Desarrollado por:** Víctor G. - Estudiante de DAM & Especialización en IA.
+**Desarrollado por:** Víctor Gonzalez Aguayo - Estudiante de DAM.
