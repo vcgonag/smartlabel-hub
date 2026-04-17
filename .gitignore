@@ -1,0 +1,25 @@
+# Mac system files
+.DS_Store
+
+# Java / Eclipse
+.metadata/
+bin/
+tmp/
+*.class
+.settings/
+.project
+.classpath
+target/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+.vscode/
+
+# React Native / Expo
+.expo/
+npm-debug.log*
+
+# OCULTAR HASTA EL LUNES
+frontend-desktop/
