@@ -48,8 +48,11 @@ public class MongoDataLoader {
 			doc.append("marca", producto.getString("marca"));
 			doc.append("categoria", producto.getString("categoria"));
 			doc.append("peso", producto.getString("peso"));
-			doc.append("precio", producto.getDouble("precio"));
+			doc.append("precioReferencia", producto.getDouble("precioReferencia"));
+			doc.append("precioPromo", producto.getDouble("precioPromo"));
 			doc.append("descripcion", producto.getString("descripcion"));
+			doc.append("sincronizado", producto.getBoolean("sincronizado"));
+			doc.append("vinculado", producto.getBoolean("vinculado"));
 			// doc.append("mime", producto.getString("mime"));
 			// doc.append("imagen", producto.getString("imagen"));
 
@@ -64,7 +67,7 @@ public class MongoDataLoader {
 			docMedia.append("_id", producto.getString("codigoBarras"));
 			docMedia.append("nombre", producto.getString("nombre"));
 			docMedia.append("mime", producto.getString("mime"));
-			docMedia.append("productoPNG", new Binary(fileContentImgProd));
+			docMedia.append("imagenPNG", new Binary(fileContentImgProd));
 			docMedia.append("barCodePNG", new Binary(fileContentBarCode));
 
 			listaProductos.add(doc);// Añadimos documento a la lista

@@ -6,11 +6,14 @@
     "marca": "NaturPlus",
     "categoria": "Lácteos",
     "peso": "1L",
-    "precio": 2.21,
-    "descripcion": "Leche entera 1L de la marca NaturPlus. Producto de alta calidad dentro de la categoría Lácteos.",
+    "precioReferencia": 1.05,
+    "precioPromo": 1.05,
+    "descripcion": "Leche entera de origen seleccionado, rica en calcio y vitaminas esenciales para el crecimiento.",
     "mime": "image/png",
     "imagen": "img/images/8400176287311.png",
-	"imagenBarCode": "img/barcodes/8400176287311.png",
+    "imagenBarCode": "img/barcodes/8400176287311.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 2,
@@ -19,11 +22,14 @@
     "marca": "SuperDAM",
     "categoria": "Lácteos",
     "peso": "1L",
-    "precio": 13.64,
-    "descripcion": "Leche semidesnatada 1L de la marca SuperDAM. Producto de alta calidad dentro de la categoría Lácteos.",
+    "precioReferencia": 0.98,
+    "precioPromo": 0.92,
+    "descripcion": "Todo el sabor de la leche fresca con un contenido reducido en grasas, ideal para una dieta equilibrada.",
     "mime": "image/png",
     "imagen": "img/images/8401833381137.png",
-	"imagenBarCode": "img/barcodes/8401833381137.png"
+    "imagenBarCode": "img/barcodes/8401833381137.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 3,
@@ -32,11 +38,14 @@
     "marca": "MaxValue",
     "categoria": "Lácteos",
     "peso": "500g",
-    "precio": 12.28,
-    "descripcion": "Yogur natural pack 4 de la marca MaxValue. Producto de alta calidad dentro de la categoría Lácteos.",
+    "precioReferencia": 1.25,
+    "precioPromo": 1.25,
+    "descripcion": "Pack de 4 yogures naturales de textura cremosa, sin azúcares añadidos y con fermentos naturales.",
     "mime": "image/png",
     "imagen": "img/images/8402123015732.png",
-	"imagenBarCode": "img/barcodes/8402123015732.png",
+    "imagenBarCode": "img/barcodes/8402123015732.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 4,
@@ -45,11 +54,14 @@
     "marca": "FreshLine",
     "categoria": "Lácteos",
     "peso": "200g",
-    "precio": 7.64,
-    "descripcion": "Queso rallado de la marca FreshLine. Producto de alta calidad dentro de la categoría Lácteos.",
+    "precioReferencia": 2.35,
+    "precioPromo": 2.10,
+    "descripcion": "Mezcla de quesos seleccionados rallados, perfectos para gratinar tus pastas y pizzas favoritas.",
     "mime": "image/png",
     "imagen": "img/images/8402290295401.png",
-	"imagenBarCode": "img/barcodes/8402290295401.png",
+    "imagenBarCode": "img/barcodes/8402290295401.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 5,
@@ -58,11 +70,14 @@
     "marca": "EcoMarket",
     "categoria": "Lácteos",
     "peso": "250g",
-    "precio": 19.28,
-    "descripcion": "Mantequilla de la marca EcoMarket. Producto de alta calidad dentro de la categoría Lácteos.",
+    "precioReferencia": 2.85,
+    "precioPromo": 2.85,
+    "descripcion": "Mantequilla tradicional elaborada con nata de primera calidad, ideal para desayunos y repostería.",
     "mime": "image/png",
     "imagen": "img/images/8402759591648.png",
-	"imagenBarCode": "img/barcodes/8402759591648.png"
+    "imagenBarCode": "img/barcodes/8402759591648.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 6,
@@ -71,11 +86,14 @@
     "marca": "EcoMarket",
     "categoria": "Panadería",
     "peso": "550g",
-    "precio": 12.54,
-    "descripcion": "Pan de molde de la marca EcoMarket. Producto de alta calidad dentro de la categoría Panadería.",
+    "precioReferencia": 1.65,
+    "precioPromo": 1.65,
+    "descripcion": "Pan de molde tierno y esponjoso, sin corteza y con ingredientes naturales para tus sándwiches.",
     "mime": "image/png",
     "imagen": "img/images/8405840774753.png",
-	"imagenBarCode": "img/barcodes/8405840774753.png"
+    "imagenBarCode": "img/barcodes/8405840774753.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 7,
@@ -84,11 +102,14 @@
     "marca": "FreshLine",
     "categoria": "Panadería",
     "peso": "500g",
-    "precio": 2.45,
-    "descripcion": "Pan integral de la marca FreshLine. Producto de alta calidad dentro de la categoría Panadería.",
+    "precioReferencia": 1.45,
+    "precioPromo": 1.45,
+    "descripcion": "Pan elaborado con harina de trigo integral, alto contenido en fibra para mejorar la digestión.",
     "mime": "image/png",
     "imagen": "img/images/8409522022712.png",
-	"imagenBarCode": "img/barcodes/8409522022712.png"
+    "imagenBarCode": "img/barcodes/8409522022712.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 8,
@@ -97,11 +118,14 @@
     "marca": "NaturPlus",
     "categoria": "Desayuno",
     "peso": "800g",
-    "precio": 13.23,
-    "descripcion": "Galletas María de la marca NaturPlus. Producto de alta calidad dentro de la categoría Desayuno.",
+    "precioReferencia": 2.10,
+    "precioPromo": 1.95,
+    "descripcion": "Las galletas clásicas de siempre, ideales para mojar en leche o preparar tartas caseras.",
     "mime": "image/png",
     "imagen": "img/images/8413330035284.png",
-	"imagenBarCode": "img/barcodes/8413330035284.png"
+    "imagenBarCode": "img/barcodes/8413330035284.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 9,
@@ -110,11 +134,14 @@
     "marca": "SuperDAM",
     "categoria": "Desayuno",
     "peso": "500g",
-    "precio": 13.67,
-    "descripcion": "Cereales chocolate de la marca SuperDAM. Producto de alta calidad dentro de la categoría Desayuno.",
+    "precioReferencia": 2.95,
+    "precioPromo": 2.95,
+    "descripcion": "Crujientes cereales de trigo y maíz bañados en delicioso chocolate con leche.",
     "mime": "image/png",
     "imagen": "img/images/8413419496104.png",
-	"imagenBarCode": "img/barcodes/8413419496104.png"
+    "imagenBarCode": "img/barcodes/8413419496104.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 10,
@@ -123,11 +150,14 @@
     "marca": "FreshLine",
     "categoria": "Bebidas",
     "peso": "250g",
-    "precio": 17.67,
-    "descripcion": "Café molido de la marca FreshLine. Producto de alta calidad dentro de la categoría Bebidas.",
+    "precioReferencia": 3.20,
+    "precioPromo": 3.20,
+    "descripcion": "Café de tueste natural con aroma intenso y cuerpo equilibrado, perfecto para cafetera italiana.",
     "mime": "image/png",
     "imagen": "img/images/8413873082783.png",
-	"imagenBarCode": "img/barcodes/8413873082783.png"
+    "imagenBarCode": "img/barcodes/8413873082783.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 11,
@@ -136,11 +166,14 @@
     "marca": "SuperDAM",
     "categoria": "Bebidas",
     "peso": "50g",
-    "precio": 5.27,
-    "descripcion": "Té verde de la marca SuperDAM. Producto de alta calidad dentro de la categoría Bebidas.",
+    "precioReferencia": 1.40,
+    "precioPromo": 1.40,
+    "descripcion": "Té verde antioxidante de hojas seleccionadas, con un sabor suave y refrescante.",
     "mime": "image/png",
     "imagen": "img/images/8414354151288.png",
-	"imagenBarCode": "img/barcodes/8414354151288.png"
+    "imagenBarCode": "img/barcodes/8414354151288.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 12,
@@ -149,11 +182,14 @@
     "marca": "NaturPlus",
     "categoria": "Bebidas",
     "peso": "1.5L",
-    "precio": 19.63,
-    "descripcion": "Agua mineral de la marca NaturPlus. Producto de alta calidad dentro de la categoría Bebidas.",
+    "precioReferencia": 0.65,
+    "precioPromo": 0.55,
+    "descripcion": "Agua mineral natural de manantial, de mineralización débil y pureza excepcional.",
     "mime": "image/png",
     "imagen": "img/images/8415514268570.png",
-	"imagenBarCode": "img/barcodes/8415514268570.png"
+    "imagenBarCode": "img/barcodes/8415514268570.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 13,
@@ -162,11 +198,14 @@
     "marca": "NaturPlus",
     "categoria": "Bebidas",
     "peso": "2L",
-    "precio": 11.84,
-    "descripcion": "Refresco cola de la marca NaturPlus. Producto de alta calidad dentro de la categoría Bebidas.",
+    "precioReferencia": 1.95,
+    "precioPromo": 1.75,
+    "descripcion": "Refresco de cola clásico con gas, ideal para compartir en reuniones o momentos de ocio.",
     "mime": "image/png",
     "imagen": "img/images/8417031160665.png",
-	"imagenBarCode": "img/barcodes/8417031160665.png"
+    "imagenBarCode": "img/barcodes/8417031160665.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 14,
@@ -175,11 +214,14 @@
     "marca": "NaturPlus",
     "categoria": "Bebidas",
     "peso": "1L",
-    "precio": 5.31,
-    "descripcion": "Zumo naranja de la marca NaturPlus. Producto de alta calidad dentro de la categoría Bebidas.",
+    "precioReferencia": 1.80,
+    "precioPromo": 1.80,
+    "descripcion": "Zumo de naranja 100% exprimida, sin conservantes ni azúcares añadidos, lleno de vitamina C.",
     "mime": "image/png",
     "imagen": "img/images/8417379457083.png",
-	"imagenBarCode": "img/barcodes/8417379457083.png"
+    "imagenBarCode": "img/barcodes/8417379457083.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 15,
@@ -188,11 +230,14 @@
     "marca": "MaxValue",
     "categoria": "Despensa",
     "peso": "1L",
-    "precio": 12.14,
-    "descripcion": "Aceite oliva virgen de la marca MaxValue. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 9.45,
+    "precioPromo": 8.95,
+    "descripcion": "Aceite de oliva virgen extra de primera extracción en frío, pilar de la dieta mediterránea.",
     "mime": "image/png",
     "imagen": "img/images/8417821592225.png",
-	"imagenBarCode": "img/barcodes/8417821592225.png"
+    "imagenBarCode": "img/barcodes/8417821592225.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 16,
@@ -201,11 +246,14 @@
     "marca": "FreshLine",
     "categoria": "Despensa",
     "peso": "1kg",
-    "precio": 15.1,
-    "descripcion": "Arroz largo de la marca FreshLine. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 1.35,
+    "precioPromo": 1.35,
+    "descripcion": "Arroz de grano largo que queda siempre suelto y en su punto, ideal para guarniciones y ensaladas.",
     "mime": "image/png",
     "imagen": "img/images/8420176905275.png",
-	"imagenBarCode": "img/barcodes/8420176905275.png"
+    "imagenBarCode": "img/barcodes/8420176905275.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 17,
@@ -214,11 +262,14 @@
     "marca": "FreshLine",
     "categoria": "Despensa",
     "peso": "500g",
-    "precio": 18.22,
-    "descripcion": "Pasta espagueti de la marca FreshLine. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 0.85,
+    "precioPromo": 0.79,
+    "descripcion": "Espaguetis de sémola de trigo duro de alta calidad, con la textura perfecta para cualquier salsa.",
     "mime": "image/png",
     "imagen": "img/images/8421107506486.png",
-	"imagenBarCode": "img/barcodes/8421107506486.png"
+    "imagenBarCode": "img/barcodes/8421107506486.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 18,
@@ -227,11 +278,14 @@
     "marca": "FreshLine",
     "categoria": "Despensa",
     "peso": "350g",
-    "precio": 7.17,
-    "descripcion": "Tomate frito de la marca FreshLine. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 1.10,
+    "precioPromo": 1.10,
+    "descripcion": "Tomate frito con aceite de oliva y un toque de sal, listo para añadir a tus mejores recetas.",
     "mime": "image/png",
     "imagen": "img/images/8422181027324.png",
-	"imagenBarCode": "img/barcodes/8422181027324.png"
+    "imagenBarCode": "img/barcodes/8422181027324.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 19,
@@ -240,11 +294,14 @@
     "marca": "EcoMarket",
     "categoria": "Conservas",
     "peso": "240g",
-    "precio": 5.99,
-    "descripcion": "Atún pack 3 de la marca EcoMarket. Producto de alta calidad dentro de la categoría Conservas.",
+    "precioReferencia": 2.75,
+    "precioPromo": 2.50,
+    "descripcion": "Lomos de atún claro en aceite de girasol, en práctico formato de tres latas individuales.",
     "mime": "image/png",
     "imagen": "img/images/8422566514968.png",
-	"imagenBarCode": "img/barcodes/8422566514968.png"
+    "imagenBarCode": "img/barcodes/8422566514968.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 20,
@@ -253,11 +310,14 @@
     "marca": "NaturPlus",
     "categoria": "Conservas",
     "peso": "340g",
-    "precio": 10.35,
-    "descripcion": "Maíz dulce de la marca NaturPlus. Producto de alta calidad dentro de la categoría Conservas.",
+    "precioReferencia": 1.45,
+    "precioPromo": 1.45,
+    "descripcion": "Granos de maíz dulce extra crujientes, sin azúcares añadidos, ideales para ensaladas.",
     "mime": "image/png",
     "imagen": "img/images/8423976261190.png",
-	"imagenBarCode": "img/barcodes/8423976261190.png"
+    "imagenBarCode": "img/barcodes/8423976261190.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 21,
@@ -266,11 +326,14 @@
     "marca": "FreshLine",
     "categoria": "Conservas",
     "peso": "400g",
-    "precio": 0.88,
-    "descripcion": "Garbanzos cocidos de la marca FreshLine. Producto de alta calidad dentro de la categoría Conservas.",
+    "precioReferencia": 0.85,
+    "precioPromo": 0.85,
+    "descripcion": "Garbanzos de categoría extra ya cocidos, listos para calentar o usar en hummus y guisos.",
     "mime": "image/png",
     "imagen": "img/images/8426634748248.png",
-	"imagenBarCode": "img/barcodes/8426634748248.png"
+    "imagenBarCode": "img/barcodes/8426634748248.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 22,
@@ -279,11 +342,14 @@
     "marca": "EcoMarket",
     "categoria": "Despensa",
     "peso": "1kg",
-    "precio": 8.54,
-    "descripcion": "Sal fina de la marca EcoMarket. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 0.55,
+    "precioPromo": 0.55,
+    "descripcion": "Sal marina fina de alta pureza, el condimento esencial para realzar el sabor de todos tus platos.",
     "mime": "image/png",
     "imagen": "img/images/8431099984735.png",
-	"imagenBarCode": "img/barcodes/8431099984735.png"
+    "imagenBarCode": "img/barcodes/8431099984735.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 23,
@@ -292,11 +358,14 @@
     "marca": "SuperDAM",
     "categoria": "Despensa",
     "peso": "1kg",
-    "precio": 8.25,
-    "descripcion": "Azúcar de la marca SuperDAM. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 1.30,
+    "precioPromo": 1.30,
+    "descripcion": "Azúcar blanco de grano fino, ideal para endulzar tus bebidas y para tus recetas de repostería.",
     "mime": "image/png",
     "imagen": "img/images/8440741373933.png",
-	"imagenBarCode": "img/barcodes/8440741373933.png"
+    "imagenBarCode": "img/barcodes/8440741373933.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 24,
@@ -305,11 +374,14 @@
     "marca": "FreshLine",
     "categoria": "Despensa",
     "peso": "1kg",
-    "precio": 16.2,
-    "descripcion": "Harina trigo de la marca FreshLine. Producto de alta calidad dentro de la categoría Despensa.",
+    "precioReferencia": 1.15,
+    "precioPromo": 1.15,
+    "descripcion": "Harina de trigo de fuerza, perfecta para la elaboración de pan casero, bizcochos y masas.",
     "mime": "image/png",
     "imagen": "img/images/8441758412936.png",
-	"imagenBarCode": "img/barcodes/8441758412936.png"
+    "imagenBarCode": "img/barcodes/8441758412936.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 25,
@@ -318,11 +390,14 @@
     "marca": "MaxValue",
     "categoria": "Frescos",
     "peso": "12u",
-    "precio": 11.78,
-    "descripcion": "Huevos docena de la marca MaxValue. Producto de alta calidad dentro de la categoría Frescos.",
+    "precioReferencia": 2.45,
+    "precioPromo": 2.45,
+    "descripcion": "Docena de huevos frescos de gallinas criadas en suelo, de categoría A y tamaño grande.",
     "mime": "image/png",
     "imagen": "img/images/8445901934900.png",
-	"imagenBarCode": "img/barcodes/8445901934900.png"
+    "imagenBarCode": "img/barcodes/8445901934900.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 26,
@@ -331,11 +406,14 @@
     "marca": "SuperDAM",
     "categoria": "Carnicería",
     "peso": "500g",
-    "precio": 14.5,
-    "descripcion": "Pechuga pollo de la marca SuperDAM. Producto de alta calidad dentro de la categoría Carnicería.",
+    "precioReferencia": 3.95,
+    "precioPromo": 3.75,
+    "descripcion": "Filetes de pechuga de pollo frescos, carne tierna y baja en grasa para cocinar a la plancha.",
     "mime": "image/png",
     "imagen": "img/images/8450384259815.png",
-	"imagenBarCode": "img/barcodes/8450384259815.png"
+    "imagenBarCode": "img/barcodes/8450384259815.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 27,
@@ -344,11 +422,14 @@
     "marca": "MaxValue",
     "categoria": "Charcutería",
     "peso": "200g",
-    "precio": 10.7,
-    "descripcion": "Jamón cocido de la marca MaxValue. Producto de alta calidad dentro de la categoría Charcutería.",
+    "precioReferencia": 2.20,
+    "precioPromo": 1.99,
+    "descripcion": "Jamón cocido extra loncheado, con un alto porcentaje de carne y sabor suave para sándwiches.",
     "mime": "image/png",
     "imagen": "img/images/8497292832044.png",
-	"imagenBarCode": "img/barcodes/8497292832044.png"
+    "imagenBarCode": "img/barcodes/8497292832044.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 28,
@@ -357,11 +438,14 @@
     "marca": "SuperDAM",
     "categoria": "Charcutería",
     "peso": "250g",
-    "precio": 0.87,
-    "descripcion": "Chorizo de la marca SuperDAM. Producto de alta calidad dentro de la categoría Charcutería.",
+    "precioReferencia": 2.55,
+    "precioPromo": 2.55,
+    "descripcion": "Chorizo dulce curado de forma tradicional, perfecto para tapas o para dar sabor a tus guisos.",
     "mime": "image/png",
     "imagen": "img/images/8450389891607.png",
-	"imagenBarCode": "img/barcodes/8450389891607.png"
+    "imagenBarCode": "img/barcodes/8450389891607.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 29,
@@ -370,11 +454,14 @@
     "marca": "SuperDAM",
     "categoria": "Pescadería",
     "peso": "100g",
-    "precio": 19.23,
-    "descripcion": "Salmón ahumado de la marca SuperDAM. Producto de alta calidad dentro de la categoría Pescadería.",
+    "precioReferencia": 3.85,
+    "precioPromo": 3.50,
+    "descripcion": "Finas lonchas de salmón noruego ahumado con maderas nobles, rico en Omega-3.",
     "mime": "image/png",
     "imagen": "img/images/8451385790444.png",
-	"imagenBarCode": "img/barcodes/8451385790444.png"
+    "imagenBarCode": "img/barcodes/8451385790444.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 30,
@@ -383,11 +470,14 @@
     "marca": "FreshLine",
     "categoria": "Congelados",
     "peso": "500g",
-    "precio": 5.14,
-    "descripcion": "Merluza congelada de la marca FreshLine. Producto de alta calidad dentro de la categoría Congelados.",
+    "precioReferencia": 4.95,
+    "precioPromo": 4.95,
+    "descripcion": "Centros de merluza ultracongelados en alta mar para mantener toda su frescura y propiedades.",
     "mime": "image/png",
     "imagen": "img/images/8458979016676.png",
-	"imagenBarCode": "img/barcodes/8458979016676.png"
+    "imagenBarCode": "img/barcodes/8458979016676.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 31,
@@ -396,11 +486,14 @@
     "marca": "EcoMarket",
     "categoria": "Congelados",
     "peso": "400g",
-    "precio": 11.25,
-    "descripcion": "Pizza margarita de la marca EcoMarket. Producto de alta calidad dentro de la categoría Congelados.",
+    "precioReferencia": 2.80,
+    "precioPromo": 2.50,
+    "descripcion": "Pizza artesana con base de masa madre, tomate natural y abundante queso mozzarella.",
     "mime": "image/png",
     "imagen": "img/images/8460104435405.png",
-	"imagenBarCode": "img/barcodes/8460104435405.png"
+    "imagenBarCode": "img/barcodes/8460104435405.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 32,
@@ -409,11 +502,14 @@
     "marca": "SuperDAM",
     "categoria": "Congelados",
     "peso": "1L",
-    "precio": 19.84,
-    "descripcion": "Helado vainilla de la marca SuperDAM. Producto de alta calidad dentro de la categoría Congelados.",
+    "precioReferencia": 3.45,
+    "precioPromo": 3.45,
+    "descripcion": "Helado cremoso de vainilla de Madagascar, elaborado con nata fresca e ingredientes naturales.",
     "mime": "image/png",
     "imagen": "img/images/8443230495789.png",
-	"imagenBarCode": "img/barcodes/8443230495789.png"
+    "imagenBarCode": "img/barcodes/8443230495789.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 33,
@@ -422,11 +518,14 @@
     "marca": "FreshLine",
     "categoria": "Congelados",
     "peso": "450g",
-    "precio": 7.87,
-    "descripcion": "Verduras congeladas de la marca FreshLine. Producto de alta calidad dentro de la categoría Congelados.",
+    "precioReferencia": 1.65,
+    "precioPromo": 1.65,
+    "descripcion": "Mezcla de verduras frescas cortadas y listas para cocinar al vapor o saltear.",
     "mime": "image/png",
     "imagen": "img/images/8461804126617.png",
-	"imagenBarCode": "img/barcodes/8461804126617.png"
+    "imagenBarCode": "img/barcodes/8461804126617.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 34,
@@ -435,11 +534,14 @@
     "marca": "EcoMarket",
     "categoria": "Snacks",
     "peso": "150g",
-    "precio": 12.94,
-    "descripcion": "Patatas fritas de la marca EcoMarket. Producto de alta calidad dentro de la categoría Snacks.",
+    "precioReferencia": 1.40,
+    "precioPromo": 1.40,
+    "descripcion": "Patatas seleccionadas fritas en aceite de girasol con el punto justo de sal marina.",
     "mime": "image/png",
     "imagen": "img/images/8465701291195.png",
-	"imagenBarCode": "img/barcodes/8465701291195.png"
+    "imagenBarCode": "img/barcodes/8465701291195.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 35,
@@ -448,11 +550,14 @@
     "marca": "MaxValue",
     "categoria": "Snacks",
     "peso": "200g",
-    "precio": 4.23,
-    "descripcion": "Frutos secos de la marca MaxValue. Producto de alta calidad dentro de la categoría Snacks.",
+    "precioReferencia": 2.95,
+    "precioPromo": 2.95,
+    "descripcion": "Mix de frutos secos tostados sin sal, una opción saludable para picar entre horas.",
     "mime": "image/png",
     "imagen": "img/images/8466112469159.png",
-	"imagenBarCode": "img/barcodes/8466112469159.png"
+    "imagenBarCode": "img/barcodes/8466112469159.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 36,
@@ -461,11 +566,14 @@
     "marca": "NaturPlus",
     "categoria": "Snacks",
     "peso": "100g",
-    "precio": 7.0,
-    "descripcion": "Chocolate negro 70% de la marca NaturPlus. Producto de alta calidad dentro de la categoría Snacks.",
+    "precioReferencia": 1.60,
+    "precioPromo": 1.60,
+    "descripcion": "Tableta de chocolate con 70% de cacao puro, intenso y con beneficios antioxidantes.",
     "mime": "image/png",
     "imagen": "img/images/8466938830638.png",
-	"imagenBarCode": "img/barcodes/8466938830638.png"
+    "imagenBarCode": "img/barcodes/8466938830638.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 37,
@@ -474,11 +582,14 @@
     "marca": "EcoMarket",
     "categoria": "Salsas",
     "peso": "500ml",
-    "precio": 17.43,
-    "descripcion": "Ketchup de la marca EcoMarket. Producto de alta calidad dentro de la categoría Salsas.",
+    "precioReferencia": 1.85,
+    "precioPromo": 1.85,
+    "descripcion": "Salsa de tomate especiada elaborada con tomates madurados al sol, sin gluten.",
     "mime": "image/png",
     "imagen": "img/images/8467281276494.png",
-	"imagenBarCode": "img/barcodes/8467281276494.png"
+    "imagenBarCode": "img/barcodes/8467281276494.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 38,
@@ -487,11 +598,14 @@
     "marca": "EcoMarket",
     "categoria": "Salsas",
     "peso": "450ml",
-    "precio": 1.62,
-    "descripcion": "Mayonesa de la marca EcoMarket. Producto de alta calidad dentro de la categoría Salsas.",
+    "precioReferencia": 1.75,
+    "precioPromo": 1.75,
+    "descripcion": "Mayonesa clásica de textura suave y cremosa, elaborada con huevos de corral.",
     "mime": "image/png",
     "imagen": "img/images/8467928328289.png",
-	"imagenBarCode": "img/barcodes/8467928328289.png"
+    "imagenBarCode": "img/barcodes/8467928328289.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 39,
@@ -500,11 +614,14 @@
     "marca": "NaturPlus",
     "categoria": "Salsas",
     "peso": "250g",
-    "precio": 2.49,
-    "descripcion": "Mostaza de la marca NaturPlus. Producto de alta calidad dentro de la categoría Salsas.",
+    "precioReferencia": 1.35,
+    "precioPromo": 1.35,
+    "descripcion": "Mostaza original con un toque de especias, perfecta para perritos calientes y hamburguesas.",
     "mime": "image/png",
     "imagen": "img/images/8469237942491.png",
-	"imagenBarCode": "img/barcodes/8469237942491.png"
+    "imagenBarCode": "img/barcodes/8469237942491.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 40,
@@ -513,11 +630,14 @@
     "marca": "EcoMarket",
     "categoria": "Limpieza",
     "peso": "30 lavados",
-    "precio": 6.92,
-    "descripcion": "Detergente lavadora de la marca EcoMarket. Producto de alta calidad dentro de la categoría Limpieza.",
+    "precioReferencia": 5.85,
+    "precioPromo": 5.85,
+    "descripcion": "Detergente líquido concentrado que elimina las manchas más difíciles incluso en agua fría.",
     "mime": "image/png",
     "imagen": "img/images/8470759732224.png",
-	"imagenBarCode": "img/barcodes/8470759732224.png"
+    "imagenBarCode": "img/barcodes/8470759732224.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 41,
@@ -526,11 +646,14 @@
     "marca": "EcoMarket",
     "categoria": "Limpieza",
     "peso": "750ml",
-    "precio": 17.84,
-    "descripcion": "Lavavajillas de la marca EcoMarket. Producto de alta calidad dentro de la categoría Limpieza.",
+    "precioReferencia": 2.10,
+    "precioPromo": 1.85,
+    "descripcion": "Jabón lavavajillas ultra desengrasante con aroma a limón, cuida tus manos mientras limpia.",
     "mime": "image/png",
     "imagen": "img/images/8471737683194.png",
-	"imagenBarCode": "img/barcodes/8471737683194.png"
+    "imagenBarCode": "img/barcodes/8471737683194.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 42,
@@ -539,11 +662,14 @@
     "marca": "MaxValue",
     "categoria": "Limpieza",
     "peso": "2L",
-    "precio": 3.35,
-    "descripcion": "Lejía de la marca MaxValue. Producto de alta calidad dentro de la categoría Limpieza.",
+    "precioReferencia": 1.20,
+    "precioPromo": 1.20,
+    "descripcion": "Lejía desinfectante para una higiene profunda en todo el hogar y blanqueo de ropa.",
     "mime": "image/png",
     "imagen": "img/images/8473639054867.png",
-	"imagenBarCode": "img/barcodes/8473639054867.png"
+    "imagenBarCode": "img/barcodes/8473639054867.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 43,
@@ -552,11 +678,14 @@
     "marca": "SuperDAM",
     "categoria": "Hogar",
     "peso": "12 rollos",
-    "precio": 4.95,
-    "descripcion": "Papel higiénico de la marca SuperDAM. Producto de alta calidad dentro de la categoría Hogar.",
+    "precioReferencia": 4.50,
+    "precioPromo": 4.25,
+    "descripcion": "Papel higiénico de doble capa suave y resistente, pack familiar de larga duración.",
     "mime": "image/png",
     "imagen": "img/images/8476647221986.png",
-	"imagenBarCode": "img/barcodes/8476647221986.png"
+    "imagenBarCode": "img/barcodes/8476647221986.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 44,
@@ -565,11 +694,14 @@
     "marca": "MaxValue",
     "categoria": "Hogar",
     "peso": "100u",
-    "precio": 4.92,
-    "descripcion": "Servilletas de la marca MaxValue. Producto de alta calidad dentro de la categoría Hogar.",
+    "precioReferencia": 1.15,
+    "precioPromo": 1.15,
+    "descripcion": "Servilletas de papel absorbentes y suaves, ideales para el uso diario en la mesa.",
     "mime": "image/png",
     "imagen": "img/images/8476678749886.png",
-	"imagenBarCode": "img/barcodes/8476678749886.png"
+    "imagenBarCode": "img/barcodes/8476678749886.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 45,
@@ -578,11 +710,14 @@
     "marca": "FreshLine",
     "categoria": "Higiene",
     "peso": "75ml",
-    "precio": 1.21,
-    "descripcion": "Pasta dental de la marca FreshLine. Producto de alta calidad dentro de la categoría Higiene.",
+    "precioReferencia": 1.95,
+    "precioPromo": 1.95,
+    "descripcion": "Crema dental con flúor para una protección total contra las caries y un aliento fresco.",
     "mime": "image/png",
     "imagen": "img/images/8477876790861.png",
-	"imagenBarCode": "img/barcodes/8477876790861.png"
+    "imagenBarCode": "img/barcodes/8477876790861.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 46,
@@ -591,11 +726,14 @@
     "marca": "EcoMarket",
     "categoria": "Higiene",
     "peso": "400ml",
-    "precio": 3.59,
-    "descripcion": "Champú de la marca EcoMarket. Producto de alta calidad dentro de la categoría Higiene.",
+    "precioReferencia": 2.75,
+    "precioPromo": 2.75,
+    "descripcion": "Champú nutritivo para todo tipo de cabello, fortalece desde la raíz y aporta brillo natural.",
     "mime": "image/png",
     "imagen": "img/images/8478711567198.png",
-	"imagenBarCode": "img/barcodes/8478711567198.png"
+    "imagenBarCode": "img/barcodes/8478711567198.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 47,
@@ -604,11 +742,14 @@
     "marca": "MaxValue",
     "categoria": "Higiene",
     "peso": "600ml",
-    "precio": 5.8,
-    "descripcion": "Gel ducha de la marca MaxValue. Producto de alta calidad dentro de la categoría Higiene.",
+    "precioReferencia": 1.90,
+    "precioPromo": 1.90,
+    "descripcion": "Gel de baño hidratante que respeta el pH de tu piel, dejando una sensación de frescor.",
     "mime": "image/png",
     "imagen": "img/images/8482516700834.png",
-	"imagenBarCode": "img/barcodes/8482516700834.png"
+    "imagenBarCode": "img/barcodes/8482516700834.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 48,
@@ -617,11 +758,14 @@
     "marca": "MaxValue",
     "categoria": "Fruta",
     "peso": "1kg",
-    "precio": 7.38,
-    "descripcion": "Manzanas de la marca MaxValue. Producto de alta calidad dentro de la categoría Fruta.",
+    "precioReferencia": 2.15,
+    "precioPromo": 2.15,
+    "descripcion": "Manzanas rojas dulces y crujientes, seleccionadas de las mejores huertas nacionales.",
     "mime": "image/png",
     "imagen": "img/images/8486917535903.png",
-	"imagenBarCode": "img/barcodes/8486917535903.png"
+    "imagenBarCode": "img/barcodes/8486917535903.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 49,
@@ -630,11 +774,14 @@
     "marca": "SuperDAM",
     "categoria": "Fruta",
     "peso": "1kg",
-    "precio": 4.93,
-    "descripcion": "Plátanos de la marca SuperDAM. Producto de alta calidad dentro de la categoría Fruta.",
+    "precioReferencia": 1.85,
+    "precioPromo": 1.85,
+    "descripcion": "Plátanos de Canarias con su inconfundible sabor dulce y textura suave, ricos en potasio.",
     "mime": "image/png",
     "imagen": "img/images/8494764491686.png",
-	"imagenBarCode": "img/barcodes/8494764491686.png"
+    "imagenBarCode": "img/barcodes/8494764491686.png",
+    "sincronizado": true,
+    "vinculado": false
   },
   {
     "id": 50,
@@ -643,10 +790,13 @@
     "marca": "FreshLine",
     "categoria": "Verdura",
     "peso": "1kg",
-    "precio": 11.26,
-    "descripcion": "Zanahorias de la marca FreshLine. Producto de alta calidad dentro de la categoría Verdura.",
+    "precioReferencia": 0.95,
+    "precioPromo": 0.95,
+    "descripcion": "Zanahorias frescas de cultivo sostenible, ricas en betacarotenos e ideales para ensaladas.",
     "mime": "image/png",
     "imagen": "img/images/8497228252984.png",
-	"imagenBarCode": "img/barcodes/8497228252984.png"
+    "imagenBarCode": "img/barcodes/8497228252984.png",
+    "sincronizado": true,
+    "vinculado": false
   }
 ]

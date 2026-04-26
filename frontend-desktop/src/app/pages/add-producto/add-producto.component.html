@@ -1,0 +1,114 @@
+<div class="container-fluid dashboard-container py-5 animate__animated animate__fadeIn">
+  <div class="card bg-dark-secondary border-purple shadow-lg">
+    <div class="card-header border-0 bg-transparent p-4">
+      <h3 class="text-light fw-bold text-uppercase m-0">
+        <i class="bi bi-plus-circle me-2 text-purple"></i> Registro de Producto
+      </h3>
+    </div>
+
+    <div class="card-body p-4 pt-0">
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <!--  <div class="img-preview-card mx-auto mb-3" (click)="fileInput.click()" style="cursor: pointer;">
+            <img [src]="previewUrl || 'assets/img/placeholder.png'" class="img-fluid rounded" alt="Preview">
+            <div *ngIf="!previewUrl" class="text-muted small">Haz clic para subir imagen</div>
+          </div>
+          <input #fileInput type="file" (change)="onFileSelected($event)" hidden accept="image/*"> -->
+
+          <div class="p-3 bg-dark-main rounded-3 border border-secondary">
+            <p class="text-secondary small fw-bold mb-2">ESTADO INICIAL</p>
+            <div class="d-flex justify-content-around">
+              <span class="badge bg-danger-soft text-danger">No Vinculado</span>
+              <span class="badge bg-warning-soft text-warning">Pendiente Sync</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">CÓDIGO EAN / ID</label>
+              <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary">
+                  <i class="bi bi-upc-scan" style="color: #a29bfe !important"></i>
+                </span>
+                <input
+                  type="number"
+                  class="form-control form-control-dark"
+                  [(ngModel)]="nuevoProducto.id"
+                  placeholder="Ej: 841234567890"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">MARCA</label>
+              <input
+                type="text"
+                class="form-control form-control-dark"
+                [(ngModel)]="nuevoProducto.marca"
+                placeholder="Marca del producto"
+              />
+            </div>
+            <div class="col-12">
+              <label class="form-label text-secondary small fw-bold">NOMBRE COMERCIAL</label>
+              <input type="text" class="form-control form-control-dark" [(ngModel)]="nuevoProducto.nombre" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">CATEGORÍA</label>
+              <input type="text" class="form-control form-control-dark" [(ngModel)]="nuevoProducto.categoria" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">PESO / VOLUMEN</label>
+              <input
+                type="text"
+                class="form-control form-control-dark"
+                [(ngModel)]="nuevoProducto.peso"
+                placeholder="Ej: 500g"
+              />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">PRECIO BASE (€)</label>
+              <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary">
+                  <i class="bi bi-currency-euro" style="color: #a29bfe !important"></i>
+                </span>
+                <input
+                  type="number"
+                  class="form-control form-control-dark border-purple-soft"
+                  [(ngModel)]="nuevoProducto.precioReferencia"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">PRECIO LANZAMIENTO (€)</label>
+              <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary">
+                  <i class="bi bi-currency-euro" style="color: #a29bfe !important"></i>
+                </span>
+                <input
+                  type="number"
+                  class="form-control form-control-dark border-purple-soft"
+                  [(ngModel)]="nuevoProducto.precioPromo"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <label class="form-label text-secondary small fw-bold">DESCRIPCIÓN DETALLADA</label>
+              <textarea
+                class="form-control form-control-dark custom-textarea"
+                [(ngModel)]="nuevoProducto.descripcion"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-footer border-0 p-4 d-flex justify-content-end gap-3">
+      <button class="btn btn-outline-secondary px-4" (click)="resetearFormulario()">Descartar</button>
+      <button class="btn btn-update-prices" (click)="crearProducto()">
+        <i class="bi bi-save2"></i> Finalizar y Guardar
+      </button>
+    </div>
+  </div>
+</div>

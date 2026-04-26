@@ -20,6 +20,3 @@ dist/
 # React Native / Expo
 .expo/
 npm-debug.log*
-
-# OCULTAR HASTA EL LUNES
-frontend-desktop/

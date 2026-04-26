@@ -1,0 +1,38 @@
+/* El contenedor principal sigue necesitando el color de fondo y altura */
+.header {
+  height: 70px;
+  background-color: #1a1a1a;
+  border-color: #333333 !important; /* Sobrescribimos el gris de bootstrap */
+}
+
+/* Tamaño del logo */
+.app-title {
+  font-size: 1.4rem;
+  letter-spacing: 1px; /* Reducimos un pelín el espaciado de letras */
+  color: #e0e0e0;
+  font-weight: 700; /* Un poco más de grosor para que tenga fuerza junto al logo */
+  line-height: 1;  /* Evita espacios arriba/abajo del texto */
+}
+
+.app-logo {
+  height: 60px; /* Bajamos un pelín el tamaño para que no se vea tan gigante respecto al texto */;
+  width: auto;
+}
+
+.highlight {
+  color: #a29bfe; /* Morado marca */
+}
+
+.profile-icon-container {
+  color: #a29bfe;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.profile-icon-container:hover {
+  transform: scale(1.1);
+}
+
+.user-info:hover .user-email {
+  color: #a29bfe !important;
+}

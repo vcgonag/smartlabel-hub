@@ -1,0 +1,251 @@
+<div class="container-fluid dashboard-container animate__animated animate__fadeIn">
+  <div class="row g-4">
+    <div class="col-12 col-xl-9">
+      <div class="card bg-dark-secondary text-light border-0 shadow">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h5 class="m-0 fw-bold">Gestión de los Productos</h5>
+            <div class="search-container position-relative col-md-4 px-0">
+              <i class="bi bi-search position-absolute text-muted small"></i>
+              <input
+                type="text"
+                class="form-control form-control-dark small"
+                placeholder="BUSCAR PRODUCTO O EAN"
+                [formControl]="searchControl"
+              />
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="table table-dark table-hover align-middle custom-table">
+              <thead>
+                <tr>
+                  <th>Imagen</th>
+                  <th>Producto</th>
+                  <th>EAN</th>
+                  <th>Precio Actual</th>
+                  <th>Precio Promo</th>
+                  <th>Estado</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (producto of listaProdcutosSearch(); track $index) {
+                  <tr class="fila-producto" (click)="seleccionarProducto(producto)">
+                    <td>
+                      <div class="table-img-container-sticker">
+                        <img [src]="producto.imagenPNG" [alt]="producto.nombre" />
+                      </div>
+                    </td>
+                    <td>{{ producto?.nombre }}</td>
+                    <td class="text-secondary small">{{ producto.id }}</td>
+                    <td class="fw-bold">
+                      {{ producto.precioReferencia | currency: 'EUR' }}
+                    </td>
+                    <td class="text-purple fw-bold">
+                      {{ producto.precioPromo | currency: 'EUR' }}
+                    </td>
+                    <td>
+                      <span class="badge bg-success-soft text-success">Sincronizado</span>
+                    </td>
+
+                    <td>
+                      <div class="d-flex gap-2">
+                        <button
+                          class="btn btn-outline-secondary btn-sm"
+                          (click)="eliminarProducto($event, producto.id)"
+                        >
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-none d-xl-block col-xl-3">
+      <div class="card bg-dark-secondary text-light border-0 shadow">
+        <div class="card-body text-center p-4">
+          <h6 class="text-uppercase fw-bold mb-4 text-secondary small">Vista Previa ESL</h6>
+          <div class="esl-preview mx-auto">
+            <div class="esl-header d-flex justify-content-between px-2 pt-1">
+              <i class="bi bi-bluetooth x-small text-dark"></i>
+              <i class="bi bi-battery-full x-small text-success"></i>
+            </div>
+            <div class="esl-content py-3">
+              <p class="m-0 text-dark small">
+                {{ productoSeleccionado.nombre || 'Seleccione Producto' }}
+              </p>
+              <h3 class="m-0 text-dark fw-bold">{{ productoSeleccionado.precioPromo }}€</h3>
+              <div class="barcode-placeholder mt-2"></div>
+            </div>
+          </div>
+          <p class="mt-4 text-secondary small">MAC: 00:1A:2B:3C:4D:5E</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalEditarProducto" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark-main border-purple shadow-lg">
+      <div class="modal-header border-0 pb-0">
+        <h5 class="modal-title text-light fw-bold text-uppercase">
+          <i class="bi bi-pencil-square me-2 text-purple"></i> Producto
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body p-4">
+        @if (mensajeExito) {
+          <div
+            class="alert alert-success bg-success-soft border-success text-light animate__animated animate__fadeInDown mb-4"
+            role="alert"
+          >
+            <i class="bi bi-check-circle-fill me-2 text-success"></i>
+            {{ mensajeExito }}
+          </div>
+        }
+
+        <div class="p-4 rounded-3 bg-dark-secondary shadow-sm border border-secondary-subtle">
+          <p class="text-muted small text-uppercase fw-bold mb-4">Datos del Producto</p>
+
+          <div class="row">
+            <div class="col-md-3 d-flex flex-column align-items-center justify-content-start">
+              <div class="img-preview-card">
+                <img
+                  [src]="productoSeleccionado.imagenPNG"
+                  class="img-fluid rounded border border-secondary p-1"
+                  alt="Imagen Producto"
+                />
+              </div>
+              <small class="text-muted mt-2">ID: #{{ productoSeleccionado.id }}</small>
+            </div>
+
+            <div class="col-md-9">
+              <div class="row g-3">
+                <div class="col-12">
+                  <label class="form-label text-secondary small fw-bold">CÓDIGO EAN (BARCODE)</label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-dark border-secondary">
+                      <i class="bi bi-upc-scan" style="color: #a29bfe !important"></i>
+                    </span>
+                    <input
+                      type="text"
+                      class="form-control form-control-dark"
+                      [(ngModel)]="productoSeleccionado.id"
+                      name="codigoBarras"
+                      readonly
+                    />
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label text-secondary small fw-bold">NOMBRE DEL PRODUCTO</label>
+                  <input
+                    type="text"
+                    class="form-control form-control-dark"
+                    [(ngModel)]="productoSeleccionado.nombre"
+                    name="nombre"
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label text-secondary small fw-bold">MARCA</label>
+                  <input
+                    type="text"
+                    class="form-control form-control-dark"
+                    [(ngModel)]="productoSeleccionado.marca"
+                    name="marca"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">PRECIO REFERENCIA (€)</label>
+              <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary">
+                  <i class="bi bi-currency-euro" style="color: #a29bfe !important"></i>
+                </span>
+                <input
+                  type="number"
+                  class="form-control form-control-dark"
+                  [(ngModel)]="productoSeleccionado.precioReferencia"
+                  name="precioReferencia"
+                  readonly
+                />
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">PRECIO PROMO / OFERTA (€)</label>
+              <div class="input-group">
+                <span class="input-group-text bg-dark border-secondary text-secondary">
+                  <i class="bi bi-currency-euro" style="color: #a29bfe !important"></i>
+                </span>
+                <input
+                  type="number"
+                  class="form-control form-control-dark"
+                  [(ngModel)]="productoSeleccionado.precioPromo"
+                  name="precioPromo"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">CATEGORÍA</label>
+              <input
+                type="text"
+                class="form-control form-control-dark"
+                [(ngModel)]="productoSeleccionado.categoria"
+                name="categoria"
+              />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small fw-bold">PESO/VOLUMEN</label>
+              <input
+                type="text"
+                class="form-control form-control-dark"
+                [(ngModel)]="productoSeleccionado.peso"
+                name="peso"
+              />
+            </div>
+
+            <div class="col-12">
+              <label class="form-label text-secondary small fw-bold">DESCRIPCIÓN</label>
+              <textarea
+                class="form-control form-control-dark custom-textarea"
+                style="height: 200px !important"
+                [(ngModel)]="productoSeleccionado.descripcion"
+                name="descripcion"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer border-0 p-4 pt-0">
+        <button
+          type="button"
+          class="btn btn-outline-secondary text-uppercase small fw-bold px-4"
+          data-bs-dismiss="modal"
+          style="border-radius: 10px"
+        >
+          Cancelar
+        </button>
+        <button type="button" class="btn btn-update-prices text-uppercase" (click)="actualizarProducto()">
+          <i class="bi bi-cloud-arrow-up-fill fs-5"></i> Guardar Cambios
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
